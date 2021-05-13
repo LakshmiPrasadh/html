@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Job application</title>
+</head>
+<body>
+<h1><center><u>JOB APPLICATION</u></center></h1>
+<h1 style="color:tomato;">Personal Information</h1>
+
+<form action="http://www.deitel.com" method="get">
+
+<!--NAME -->
+NAME &emsp; &emsp;   <input type="text"  name="fname"size="20" placeholder = "First name" autofocus> <input type="text" name="lname"size="20" placeholder = "Last name" autofocus><br>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<label for="firstname">Firstname</label> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<label for="lastname">Last name</label><br>
+
+
+<!--EMAIL--> 
+<label > Email   &emsp;&emsp;&emsp;&emsp;<input type="text"  name="Email"size="50"placeholder = "name@domain.com"><br><br></label>
+<!--EDUCATION-->
+<label>Education</label>
+&emsp;&emsp;&emsp;&emsp;<select name="Education" id="courses" required >
+  <option  value="Select education">Please choose </option>
+    <option value="12 PASS">12 PASS</option>
+    <option value="BTECH/MTECH">BTECH/MTECH</option>
+  <option value="DEGREE">DEGREE</option>
+  <option value="POLYTECHNIC">POLYTECHNIC</option>
+</select><br><br>
+
+<!--CHOOSE FILE-->
+<label >RESUME</label>
+
+&emsp;&emsp;&emsp;&emsp;<input type="file"
+       name="FILE"
+       accept="image/png, image/jpeg"><BR><br>
+
+<!--ADDRESS-->
+<label >Address &emsp;&emsp;&emsp;&emsp;</label><input type="text"  name="Address"size="50" required><br>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<label for="Address"><small>Address1</label><br>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="text"  name="Address"size="50" required><br>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<label for="Address"><small>Address2</label><br>
+
+<!--SELECT COUNTRY-->
+<label ></label>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<select name="country" id="countries">
+  <option value="Select a country">Select a country </option>
+    <option value="AUSTRALIA">AUSTRALIA</option>
+  <option value="canada">CANADA</option>
+  <option value="INDIA">INDIA</option>
+  <option value="UK">UK</option>
+<option value="USA">USA</option>
+</select><br>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<label for="Country">Country<br>
+
+<!--CITY STATE ZIPCODE-->
+ &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  <label ></label><input type="text"  name="city"size="30" placeholder="city"> <label></label> <input type="text" name="state"size="1"placeholder="state">&emsp;<input type="text" name="zipcode"size="10" placeholder="zipcode"><br>
+&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;city&emsp; &emsp;&emsp; &emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;state&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;zipcode<br><br>
+
+<!--PHONE NO-->
+</font>  
+<font size="3">  
+    Phone No  &emsp; &emsp;&emsp;  <input type="tel"  name="fname"size="2"placeholder = "(**)" >&emsp;  <input type="tel" name="lname"size="30"placeholder = "**********"><br><br>
+ 
+<!--HOBBIES-->
+What are your hobbies?<br>
+<input type="text" name="hobbies"size="50" placeholder="hobbies"><br><br>
+ 
+<h1 style="color:tomato;">Precious/Current Employement Details</h1><br>
+
+<!--COMPANY NAME-->
+Company Name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <input type="text" name="comapny name"size="50" placeholder="company name" required><br><br>
+
+<!--JOB TITLE-->
+Job Tite&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="text" name="job title"size="50" placeholder="job title" required><br><br>
+
+<!--JOB HOW LONG-->
+How long were you here?&emsp;&emsp;&emsp;<input type="text" name="how long"size="50"><br><br>
+</font> 
+ <input type="submit" value="Submit">
+<input type = "reset" value = "Clear">
+</form>
+
+
+
+</body>
+</html>
